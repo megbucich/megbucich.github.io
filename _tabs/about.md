@@ -167,7 +167,7 @@ order: 1
     <!-- RIGHT -->
     <div>
       <div class="media-card">
-        <img src="/assets/images/grad_photo.jpg" alt="Undergraduate graduation">
+        <img src="/assets/images/grad_photo.JPG" alt="Undergraduate graduation">
       </div>
     </div>
 
