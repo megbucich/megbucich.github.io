@@ -1,0 +1,14 @@
+/* widen content area on large screens */
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px !important;
+  }
+
+  main.col-xl-9 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}

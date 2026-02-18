@@ -1,4 +1,164 @@
 ---
-layout: home
-# Index page
+layout: page
+title:
+permalink: /
 ---
+
+<style>
+/* ===== Match your other tabs ===== */
+.band{
+  border-radius: 16px;
+  padding: 1.25rem 1.25rem;
+  margin: 1.5rem 0;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.band-warm{
+  background: linear-gradient(135deg, rgba(244,114,182,0.16), rgba(250,204,21,0.14));
+}
+
+.band-sunset{
+  background: linear-gradient(135deg, rgba(251,113,133,0.14), rgba(250,204,21,0.12), rgba(244,114,182,0.12));
+}
+
+.card{
+  background: rgba(255,255,255,0.78);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.two-col{
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+@media (max-width: 900px){
+  .two-col{ grid-template-columns: 1fr; }
+}
+
+.quick-links{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.quick-links li{
+  margin-bottom: 0.75rem;
+}
+.quick-links a{
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.small-note{
+  opacity: 0.92;
+  line-height: 1.45;
+}
+
+/* optional pills under your name */
+.pill-row{
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.85rem;
+}
+.pill{
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.65);
+}
+</style>
+
+<!-- HERO BANNER (kept) -->
+<div style="
+  position: relative;
+  background: linear-gradient(135deg, #f472b6, #fb7185, #facc15);
+  padding: 3rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+">
+
+  <img
+    src="/assets/images/graphic.jpg"
+    alt=""
+    style="
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.05;
+      pointer-events: none;
+    "
+  >
+
+  <div style="position: relative;">
+    <h1 style="color: #090c0f; margin-bottom: 0.5rem;">
+      Megan Bucich
+    </h1>
+
+    <p style="color: #090c0f; font-size: 1.08rem; margin-bottom: 0.25rem;">
+      M.S. Applied Mathematics • San Diego State University • Class of 2026
+    </p>
+
+    <p style="color: #090c0f; font-size: 1.08rem; margin: 0;">
+      B.S. Mathematics • Olivet Nazarene University • Class of 2024
+    </p>
+
+    <!-- Optional: keep/remove these pills -->
+    <div class="pill-row">
+      <span class="pill">Data Analysis</span>
+      <span class="pill">Modeling</span>
+      <span class="pill">Visualization</span>
+      <span class="pill">Communication</span>
+    </div>
+  </div>
+</div>
+
+<section class="band band-warm">
+  <div class="two-col">
+
+    <!-- LEFT: Welcome -->
+    <div>
+      <h2 style="margin-top:0;">Welcome!</h2>
+
+      <p class="small-note">
+        I’m a second-year M.S. student in Applied Mathematics at San Diego State University (graduating May 2026).
+        I’m building industry-ready experience in quantitative modeling, data interpretation, and clear communication of results.
+      </p>
+
+      <p class="small-note" style="margin-bottom:0;">
+        This site is a quick overview of my background, technical work, leadership experience, and research interests.
+      </p>
+    </div>
+
+    <!-- RIGHT: Overview -->
+    <div class="card">
+      <h3 style="margin-top:0;">Overview</h3>
+      <ul class="quick-links">
+        <li><a href="/about/">About</a> → background, interests, and academic path</li>
+        <li><a href="/education/">Education</a> → applied skill set </li>
+        <li><a href="/projects/">Projects</a> → summary of individual projects </li>
+        <li><a href="/leadership/">Leadership</a> → facilitation, coaching, and team collaboration</li>
+        <li><a href="/research/">Research</a> → climate data analysis and visualization work</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="band band-sunset">
+  <div class="card">
+    <h3 style="margin-top:0;">What I’m Looking For</h3>
+    <p class="small-note" style="margin-bottom:0;">
+      Roles where I can contribute through working with data, building models,
+      and communicating insights clearly in a team environment.
+    </p>
+  </div>
+</section>
