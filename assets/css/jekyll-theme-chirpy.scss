@@ -1,19 +1,26 @@
-/* Wider layout on large screens (Chirpy override) */
+---
+---
+
+/* Make the main content area wider on large screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1400px !important; /* try 1200–1600 */
+  main.col-xl-9 {
+    flex: 0 0 auto;
+    width: 11/12 * 100%; /* ~91.666% */
+    max-width: none;
   }
 }
 
-@media (min-width: 1200px) {
-  main {
-    max-width: none !important;
+/* Even wider on very large screens */
+@media (min-width: 1400px) {
+  main.col-xl-9 {
+    width: 10/12 * 100%; /* ~83.333% (tweak if you want wider) */
   }
 }
 
-@media (min-width: 1200px){
-  main.col-xl-9{
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
+/* Optional: reduce the side padding a bit */
+.container,
+.container-fluid,
+.container-xxl {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
