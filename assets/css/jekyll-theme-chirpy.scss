@@ -5,7 +5,7 @@
 @media (min-width: 1200px) {
   main.col-xl-9 {
     flex: 0 0 auto;
-    width: 11/12 * 100%; /* ~91.666% */
+    width: 100%; /* ~91.666% */
     max-width: none;
   }
 }
@@ -13,7 +13,7 @@
 /* Even wider on very large screens */
 @media (min-width: 1400px) {
   main.col-xl-9 {
-    width: 10/12 * 100%; /* ~83.333% (tweak if you want wider) */
+    width: 100%; /* ~83.333% (tweak if you want wider) */
   }
 }
 
