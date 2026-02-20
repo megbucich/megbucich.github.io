@@ -2,3 +2,7 @@
 .mode-toggle {
   display: none !important;
 }
+ 
+a[href$="feed.xml"] {
+  display: none !important;
+}
