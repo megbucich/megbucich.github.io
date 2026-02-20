@@ -146,7 +146,7 @@ order: 3
 
 .card-figure img{
   width: 100%;
-  height: 100%;       /* adjust 160–220 */
+  height: auto;       /* adjust 160–220 */
   object-fit: contain;
   border-radius: 10px;
   display: block;
