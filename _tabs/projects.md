@@ -144,6 +144,12 @@ order: 3
   }
 }
 
+.card-figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card-figure img{
   width: 100%;
   height: auto;       /* adjust 160–220 */
