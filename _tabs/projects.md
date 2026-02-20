@@ -111,7 +111,7 @@ order: 3
 .figure-card img{
   width: 100%;
   height: 220px;
-  object-fit: contain
+  object-fit: contain;
   border-radius: 10px;
   display: block;
 }
@@ -229,14 +229,14 @@ order: 3
 <div class="card-figure">
       <img src="/assets/images/square_wave_and_fourier_series (1).png" alt="Regression diagnostics plot">
       <div class="figure-caption">
-        (insert caption)
+        Fourier series approximation of a square wave. As the number of terms increases, oscillations persist near the discontinuities — illustrating the Gibbs phenomenon.
       </div>
     </div>
 
 <div class="card-figure">
       <img src="/assets/images/square_wave_exponential_p2_alpha16_N50 (1).png" alt="Regression diagnostics plot">
       <div class="figure-caption">
-        (insert caption)
+        Exponential filtering applied to the Fourier series approximation. The filter reduces oscillatory overshoot while preserving the overall structure of the function.
       </div>
     </div>
 
@@ -263,14 +263,15 @@ order: 3
 <div class="card-figure">
       <img src="/assets/images/Figures/contour_ncg (1).png" alt="">
       <div class="figure-caption">
-        (insert caption)
+        Contour plot of the objective function. The nonlinear conjugate gradient method converges toward the minimizer representing the estimated caloric conversion constant.
       </div>
     </div>
 
 <div class="card-figure">
       <img src="/assets/images/Figures/NonlinearCG_obs_vs_pred.png" alt="">
       <div class="figure-caption">
-        (insert caption)
+        Observed weight changes versus model predictions after optimization. The fitted curve reflects the estimated relationship between caloric intake and weight variation.
+</div>
       </div>
     </div>
 </div>
@@ -320,14 +321,14 @@ order: 3
 <div class="card-figure">
       <img src="/assets/images/nofeedback (1).png" alt="">
       <div class="figure-caption">
-        (caption)
+        Uncontrolled inverted pendulum trajectory. Small perturbations grow over time, demonstrating the system’s inherent instability.
       </div>
     </div>
 
  <div class="card-figure">
       <img src="/assets/images/withfeedback (1).png" alt="">
       <div class="figure-caption">
-        (caption)
+        Pendulum trajectory under feedback control. The stabilizing input counteracts instability and drives the system toward equilibrium.
       </div>
     </div>
 
@@ -357,14 +358,14 @@ order: 3
  <div class="card-figure">
       <img src="/assets/images/scree_plot.jpg" alt="">
       <div class="figure-caption">
-        (caption)
+        Scree plot of singular values. The rapid decay indicates that a small number of modes capture most of the variance in the wind dataset.
       </div>
     </div>
 
  <div class="card-figure">
       <img src="/assets/images/EOF1.jpg" alt="">
       <div class="figure-caption">
-        (caption)
+        First empirical orthogonal function (EOF1). This dominant spatial mode represents the primary pattern of wind variability.
       </div>
     </div>
 
@@ -372,13 +373,29 @@ order: 3
  <div class="card-figure">
       <img src="/assets/images/PC1.jpg" alt="">
       <div class="figure-caption">
-        (caption)
+        First principal component (PC1). The temporal coefficient associated with EOF1, showing how the dominant wind pattern evolves over time.
       </div>
     </div>
 
   </div>
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="project-card">
       <h3 class="project-title">Monarch Butterfly Population Dynamics</h3>
@@ -396,26 +413,39 @@ order: 3
 <div class="card-figure">
       <img src="/assets/images/temperature curve (1).png" alt="">
       <div class="figure-caption">
-        (caption)
+        Temperature-dependent growth function used in the population model, reflecting how environmental conditions influence development rates.
       </div>
     </div>
 
 <div class="card-figure">
       <img src="/assets/images/parameter T0 (1).png" alt="">
       <div class="figure-caption">
-        (caption)
+        Sensitivity analysis with respect to parameter T₀. Changes in this threshold significantly affect long-term population behavior.
       </div>
     </div>
 
 <div class="card-figure">
       <img src="/assets/images/Mortality Rate of Larvae.png" alt="">
       <div class="figure-caption">
-        (caption)
+        Modeled larval mortality rate as a function of environmental variables, incorporated into the system of differential equations.
       </div>
     </div>
 
   </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="project-card">
       <h3 class="project-title">Object Classification with COIL-20 Data</h3>
@@ -433,14 +463,14 @@ order: 3
 <div class="card-figure">
       <img src="/assets/images/cm_svm_rbf (1).png" alt="">
       <div class="figure-caption">
-        (insert caption)
+        Confusion matrix for the SVM classifier. High diagonal concentration indicates strong classification accuracy across object categories.
       </div>
     </div>
 
 <div class="card-figure">
       <img src="/assets/images/Loss_VS_Epoch.png" alt="">
       <div class="figure-caption">
-        (insert caption)
+        Training loss versus epoch for the neural network model. The decreasing curve indicates convergence during optimization.
       </div>
     </div>
 
