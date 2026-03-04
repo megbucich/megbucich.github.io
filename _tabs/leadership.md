@@ -249,23 +249,19 @@ order: 4
       <strong>Feedback Highlights</strong>
       <div class="quote-grid">
         <div class="quote-card">
-          <div class="quote-tag">Clarity</div>
-          Super good at explaining the material.
+          "She was super good at explaining the material."
         </div>
 
         <div class="quote-card">
-          <div class="quote-tag">Respect</div>
-          Makes me feel respected as a student.
+          "She makes me feel respected as a student."
         </div>
 
         <div class="quote-card">
-          <div class="quote-tag">Structure</div>
-          Very well structured and expectations were clear.
+          "Her class was very well structured and expectations were clear."
         </div>
 
         <div class="quote-card">
-          <div class="quote-tag">Confidence</div>
-          Helped me feel prepared for exams.
+          "she helped me feel prepared for exams."
         </div>
       </div>
     </div>
@@ -320,10 +316,21 @@ order: 4
 
       <strong>Feedback Highlights</strong>
       <div class="quote-grid">
-        <div class="quote-card"><div class="quote-tag">Approachable</div> Very fun to be in her class and extremely approachable.</div>
-        <div class="quote-card"><div class="quote-tag">Coaching</div> Gave hints that pointed groups in the right direction without giving away the answer.</div>
-        <div class="quote-card"><div class="quote-tag">Support</div> Went out of her way many times to provide as much help as possible.</div>
-        <div class="quote-card"><div class="quote-tag">Inclusivity</div> One of the most inclusive, supporting, and positive environments I’ve been in as a student.</div>
+        Very fun to be in her class and extremely approachable.
+        </div>
+
+        <div class="quote-card"> 
+        Gave hints that pointed groups in the right direction without giving away the answer.
+        </div>
+
+        <div class="quote-card">
+         Went out of her way many times to provide as much help as possible.
+         </div>
+
+        <div class="quote-card">
+        One of the most inclusive, supporting, and positive environments I’ve been in as a student.
+        </div>
+
       </div>
     </div>
   </div>
