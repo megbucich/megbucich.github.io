@@ -329,7 +329,7 @@ order: 4
 
         <div class="quote-card">
         One of the most inclusive, supporting, and positive environments I’ve been in as a student.
-        </div>
+        
 
       </div>
     </div>
