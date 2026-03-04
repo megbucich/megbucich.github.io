@@ -316,6 +316,8 @@ order: 4
 
       <strong>Feedback Highlights</strong>
       <div class="quote-grid">
+      
+        <div class="quote-card"> 
         Very fun to be in her class and extremely approachable.
         </div>
 
