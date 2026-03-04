@@ -109,6 +109,32 @@ order: 6
   font-weight: 700;
   opacity: 0.9;
 }
+
+
+
+
+.figure-frame{
+  width: 100%;
+  min-height: 320px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 650;
+  opacity: 0.85;
+}
+
+.figure-note{
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin: 0.6rem 0 0 0;
+  line-height: 1.35;
+}
+
 </style>
 
 
@@ -199,6 +225,88 @@ order: 6
       </p>
     </div>
   </div>
+
+
+<!-- ===================== -->
+<!-- Contour Lines Section -->
+<!-- ===================== -->
+<section class="band band-sunset">
+  <div class="section-header">
+    <h2 style="margin:0;">Contour Lines by Niño Region</h2>
+    <p>Spatial structure and gradients within Niño 1+2, 3, 3.4, and 4.</p>
+  </div>
+
+  <p>
+    I am creating contour-line visualizations for each Niño region to highlight spatial patterns in temperature structure.
+    These plots help reveal gradients and coherent features that may relate to ENSO variability.
+  </p>
+
+  <div class="research-figure">
+    <div class="figure-frame">
+      Contour-line figures for Niño 1+2, Niño 3, Niño 3.4, and Niño 4 will appear here.
+    </div>
+    <p class="caption">
+      <strong>Figure 5:</strong> Contour-line visualizations for each Niño monitoring region.
+    </p>
+  </div>
+</section>
+
+
+
+
+<!-- ===================== -->
+<!-- K-Means Section       -->
+<!-- ===================== -->
+<section class="band band-cool">
+  <div class="section-header">
+    <h2 style="margin:0;">K-Means Clustering</h2>
+    <p>Unsupervised grouping of temperature-based features.</p>
+  </div>
+
+  <p>
+    I applied K-means clustering to explore whether temperature-derived features group into distinct regimes.
+    This provides a data-driven view of structure in the dataset and may help identify recurring patterns associated with ENSO.
+  </p>
+
+  <div class="research-figure">
+    <div class="figure-frame">
+      K-means clustering figures will appear here.
+    </div>
+    <p class="caption">
+      <strong>Figure 6:</strong> K-means clustering results for Niño-region feature space.
+    </p>
+  </div>
+</section>
+
+
+
+
+
+<!-- ===================== -->
+<!-- SVM Section           -->
+<!-- ===================== -->
+<section class="band band-warm">
+  <div class="section-header">
+    <h2 style="margin:0;">Support Vector Machines</h2>
+    <p>Supervised classification as a next step.</p>
+  </div>
+
+  <p>
+    As a next step, I plan to use Support Vector Machines (SVM) to classify patterns in the data.
+    This will build on the exploratory clustering by introducing a supervised learning approach.
+  </p>
+
+  <div class="research-figure">
+    <div class="figure-frame">
+      SVM classification figures will appear here.
+    </div>
+    <p class="caption">
+      <strong>Figure 7:</strong> SVM-based classification visualizations for ENSO-related structure.
+    </p>
+  </div>
+</section>
+
+
 
   <div class="card" style="margin-top:1rem;">
     <h3 style="margin-top:0;">Current Status</h3>
