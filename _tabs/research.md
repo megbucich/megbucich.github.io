@@ -237,13 +237,12 @@ order: 6
   </div>
 
   <p>
-    I am creating contour-line visualizations for each Niño region to highlight spatial patterns in temperature structure.
-    These plots help reveal gradients and coherent features that may relate to ENSO variability.
+    
   </p>
 
   <div class="research-figure">
     <div class="figure-frame">
-      Contour-line figures for Niño 1+2, Niño 3, Niño 3.4, and Niño 4 will appear here.
+      insert Contour-line figures
     </div>
     <p class="caption">
       <strong>Figure 5:</strong> Contour-line visualizations for each Niño monitoring region.
@@ -260,21 +259,19 @@ order: 6
 <section class="band band-cool">
   <div class="section-header">
     <h2 style="margin:0;">K-Means Clustering</h2>
-    <p>Unsupervised grouping of temperature-based features.</p>
+    <p>Unsupervised Grouping</p>
   </div>
 
   <p>
-    I applied K-means clustering to explore whether temperature-derived features group into distinct regimes.
-    This provides a data-driven view of structure in the dataset and may help identify recurring patterns associated with ENSO.
+    
   </p>
 
   <div class="research-figure">
     <div class="figure-frame">
-      K-means clustering figures will appear here.
+      insert K-means figures 
     </div>
     <p class="caption">
-      <strong>Figure 6:</strong> K-means clustering results for Niño-region feature space.
-    </p>
+      <strong>Figure 6:</strong> 
   </div>
 </section>
 
@@ -288,20 +285,19 @@ order: 6
 <section class="band band-warm">
   <div class="section-header">
     <h2 style="margin:0;">Support Vector Machines</h2>
-    <p>Supervised classification as a next step.</p>
+    <p>Supervised classification.</p>
   </div>
 
   <p>
-    As a next step, I plan to use Support Vector Machines (SVM) to classify patterns in the data.
-    This will build on the exploratory clustering by introducing a supervised learning approach.
+    
   </p>
 
   <div class="research-figure">
     <div class="figure-frame">
-      SVM classification figures will appear here.
+      insert SVM figures
     </div>
     <p class="caption">
-      <strong>Figure 7:</strong> SVM-based classification visualizations for ENSO-related structure.
+      <strong>Figure 7:</strong> 
     </p>
   </div>
 </section>
