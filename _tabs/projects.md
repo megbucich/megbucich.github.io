@@ -190,8 +190,7 @@ order: 3
   </div>
 
   <p class="small-note">
-    Built and analyzed regression models using COPD-related data to investigate relationships between clinical variables.
-    Emphasis was placed on diagnostics, assumption checking, and interpretation rather than prediction alone.
+    Built and analyzed regression models using COPD-related data to investigate relationships between clinical variables. Emphasis was placed on diagnostics, assumption checking, and interpretation.
   </p>
 
   
@@ -260,8 +259,7 @@ order: 3
         <span class="tag">Conjugate Gradient</span>
       </div>
       <p class="small-note">
-        Used personal fitness data to estimate a conversion constant relating caloric intake to weight change.
-        Formulated an objective function, applied numerical optimization methods, and interpreted results.
+        Used personal fitness data to estimate a conversion constant relating caloric intake to weight change through numerical optimization. Formulated an objective function, applied numerical optimization methods, and interpreted results.
       </p>
 
 <div class="card-figure-grid">

@@ -103,7 +103,7 @@ order: 1
 
       <p>
         I am interested in industry roles where I can combine mathematics and data analysis
-        to work on real-world problems. Through my
+        to solve on real-world problems. Through my
         <a href="/education/">academic training</a> and
         <a href="/research/">research experience</a>, I have developed experience in
         mathematical modeling, statistics, numerical methods, and data visualization.
@@ -117,7 +117,7 @@ order: 1
       <div class="info-card">
         <h4 style="margin-top:0;">Overview</h4>
         <ul>
-          <li><strong>Degree:</strong> M.S. Applied Mathematics (2026)</li>
+          <li><strong>Degree:</strong> M.S. in Applied Mathematics (2026)</li>
           <li><strong>Focus:</strong> Modeling, statistics, applied computation</li>
           <li><strong>Current Role:</strong> Teaching Assistant (Calculus I & Life Sciences)</li>
           <li><strong>Location:</strong> San Diego, CA</li>
@@ -191,7 +191,7 @@ order: 1
       <p>
         When applying to graduate programs, I was motivated by a desire to challenge myself
         academically and personally. In Fall 2024, I chose SDSU for its applied focus and
-        opportunity to teach.
+        opportunity to faciliate in teaching undergraduate courses.
       </p>
 
       <p>

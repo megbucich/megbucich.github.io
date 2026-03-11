@@ -155,7 +155,7 @@ order: 2
         <li>Time series analysis</li>
         <li>Regression modeling</li>
         <li>Discrete mathematics</li>
-        <li>Mathematical physics foundations</li>
+        <li>General Physics foundations</li>
       </ul>
 
     </div>

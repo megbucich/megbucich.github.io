@@ -204,9 +204,11 @@ order: 6
   <h2 style="margin-top:0;">Approach & Focus</h2>
 
   <p>
-    A central component of my work involves computing the volume of ocean water within specified temperature bins across depth,
-    latitude, and longitude. This enables tracking how the volume of warm and cool water changes over time, which may provide
-    insight into ENSO-related dynamics.
+    A central component of my work involves computing the volume of ocean water within specified temperature bins across depth, latitude, and longitude. This enables tracking how the volume of warm and cool water changes over time, which may provide insight into ENSO-related dynamics.
+
+    In addition to volumetric analysis, I examine whether ENSO and non-ENSO years can be differentiated using machine learning methods. For each year, I focus on the winter season (December,January,February) and extract features across Niño regions (1+2, 3, 3.4, and 4) from both the surface layer and the transition/thermocline layer. I use k-means clustering to identify groupings in the DJF data and support vector machines (SVM) to evaluate supervised classification performance.
+
+
   </p>
 
   <!-- STACKED FIGURES (prevents whitespace from mixed aspect ratios) -->
@@ -227,29 +229,6 @@ order: 6
   </div>
 
 
-<!-- ===================== -->
-<!-- Contour Lines Section -->
-<!-- ===================== -->
-<section class="band band-sunset">
-  <div class="section-header">
-    <h2 style="margin:0;">Contour Lines by Niño Region</h2>
-    <p>Spatial structure and gradients within Niño 1+2, 3, 3.4, and 4.</p>
-  </div>
-
-  <p>
-    
-  </p>
-
-  <div class="research-figure">
-    <div class="figure-frame">
-      insert Contour-line figures
-    </div>
-    <p class="caption">
-      <strong>Figure 5:</strong> Contour-line visualizations for each Niño monitoring region.
-    </p>
-  </div>
-</section>
-
 
 
 
@@ -264,20 +243,18 @@ order: 6
 <!-- ===================== -->
 <section class="band band-warm">
   <div class="section-header">
-    <h2 style="margin:0;">k-Means & Support Vector Machines</h2>
-    <p>Supervised classification.</p>
+    <h2 style="margin:0;">K-Means & Support Vector Machines</h2>
+    <p>Unsupervised clustering and Supervised classification.</p>
   </div>
 
-  <p>
-    
-  </p>
+
 
   <div class="research-figure">
     <div class="figure-frame">
       <img src="/assets/images/Figures/nino34_DJF_kmeans_svm_trans_k3.png" alt="Monthly time series of Niño 3.4 index">
     </div>
     <p class="caption">
-      <strong>Figure 6:</strong> 
+      <strong>Figure 5:</strong> 
     </p>
   </div>
 </section>

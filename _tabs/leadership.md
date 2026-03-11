@@ -194,7 +194,7 @@ order: 4
     <div class="quote-tile">“A safe space to ask questions. She never made me feel bad for asking questions”</div>
     <div class="quote-tile">“She knew everyone's name by the second week.”</div>
 
-    <div class="quote-tile">“Extremely smart and able to answer genuinely any question we had.”</div>
+    <div class="quote-tile">“Extremely smart and able to answer any question we had.”</div>
     <div class="quote-tile">“Ensured no student was left behind regardless of how little initial understanding they had.”</div>
     <div class="quote-tile">“Helped in a way that made me actually do the work”</div>
   </div>
@@ -261,7 +261,7 @@ order: 4
         </div>
 
         <div class="quote-card">
-          "she helped me feel prepared for exams."
+          "She helped me feel prepared for exams."
         </div>
       </div>
     </div>
@@ -290,7 +290,7 @@ order: 4
       <ul>
         <li>Delivered structured academic support across diverse student populations, including liberal arts, business, and STEM majors in the <a href="https://www.olivet.edu/academics/colleges/college-professional-studies/center-academic-excellence/">Math Lab</a></li>
         <li>Facilitated large-group review sessions for calculus, differential equations, and linear algebra</li>
-        <li>Provided individualized 1-on-1 academic coaching through scheduled hours as a <a href="https://www.olivet.edu/academics/academic-support/">peer educator</a></li>
+        <li>Provided individualized one-on-one academic coaching through scheduled hours as a <a href="https://www.olivet.edu/academics/academic-support/">peer educator</a></li>
         <li>Managed weekly grading workflows and maintained digital grade databases</li>
         <li>Supported laboratory instruction in physical science courses, reinforcing technical concepts during experiments</li>
       </ul>
@@ -330,7 +330,8 @@ order: 4
          </div>
 
         <div class="quote-card">
-        One of the most inclusive, supporting, and positive environments I’ve been in as a student.
+        One of the most inclusive, supportive, and positive environments I’ve been in as a student.
+        </div>
         
 
       </div>
