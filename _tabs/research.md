@@ -254,26 +254,6 @@ order: 6
 
 
 <!-- ===================== -->
-<!-- K-Means Section       -->
-<!-- ===================== -->
-<section class="band band-cool">
-  <div class="section-header">
-    <h2 style="margin:0;">K-Means Clustering</h2>
-    <p>Unsupervised Grouping</p>
-  </div>
-
-  <p>
-    
-  </p>
-
-  <div class="research-figure">
-    <div class="figure-frame">
-      insert K-means figures 
-    </div>
-    <p class="caption">
-      <strong>Figure 6:</strong> 
-  </div>
-</section>
 
 
 
@@ -284,7 +264,7 @@ order: 6
 <!-- ===================== -->
 <section class="band band-warm">
   <div class="section-header">
-    <h2 style="margin:0;">Support Vector Machines</h2>
+    <h2 style="margin:0;">k-Means & Support Vector Machines</h2>
     <p>Supervised classification.</p>
   </div>
 
@@ -294,10 +274,10 @@ order: 6
 
   <div class="research-figure">
     <div class="figure-frame">
-      insert SVM figures
+      <img src="/assets/images/Figue" alt="Monthly time series of Niño 3.4 index">
     </div>
     <p class="caption">
-      <strong>Figure 7:</strong> 
+      <strong>Figure 6:</strong> 
     </p>
   </div>
 </section>
