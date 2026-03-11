@@ -274,7 +274,7 @@ order: 6
 
   <div class="research-figure">
     <div class="figure-frame">
-      <img src="/assets/images/Figue" alt="Monthly time series of Niño 3.4 index">
+      <img src="/assets/images/Figures/nino34_DJF_kmeans_svm_trans_k3.png" alt="Monthly time series of Niño 3.4 index">
     </div>
     <p class="caption">
       <strong>Figure 6:</strong> 
